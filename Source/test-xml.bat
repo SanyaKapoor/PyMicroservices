@@ -1,11 +1,11 @@
-SET PATH=%PATH%;c:\Users\nvmur\Appdata\Local\Programs\Python\Python37-32;c:\Users\nvmur\Appdata\Local\Programs\Python\Python37-32\Scripts
-del C:\skillvelocity\courses\devops\PyMicroservices\Source\python_tests_xml\*.*
-del C:\skillvelocity\courses\devops\PyMicroservices\Source\coverage.xml
-cd c:\skillvelocity\courses\devops\PyMicroservices\Source
-REM c:\Users\nvmur\Appdata\Local\Programs\Python\Python37-32\python runtests.py
-REM c:\Users\nvmur\Appdata\Local\Programs\Python\Python37-32\python -m coverage run -m pytest && coverage xml -o coverage.xml
-REM c:\Users\nvmur\Appdata\Local\Programs\Python\Python37-32\python -m coverage html -d coverage
+SET PATH=%PATH%;C:\Python27\;C:\Python27\Scripts
+del D:\Moodle\Sem 5\Cloud\PyMicroservices-master\Source\python_tests_xml\*.*
+del D:\Moodle\Sem 5\Cloud\PyMicroservices-master\Source\coverage.xml
+cd D:\Moodle\Sem 5\Cloud\PyMicroservices-master\Source\coverage.xml
+REM C:\Python27\python runtests.py
+REM C:\Python27\python -m coverage run -m pytest && coverage xml -o coverage.xml
+REM C:\Python27\python -m coverage html -d coverage
 python runtests.py
 python -m coverage run -m pytest && coverage xml -o coverage.xml
-copy C:\skillvelocity\courses\devops\PyMicroservices\Source\python_tests_xml\*.* C:\skillvelocity\courses\devops\PyMicroservices\python_tests_xml
-copy C:\skillvelocity\courses\devops\PyMicroservices\Source\coverage.xml C:\skillvelocity\courses\devops\PyMicroservices
+copy D:\Moodle\Sem 5\Cloud\PyMicroservices-master\Source\python_tests_xml\*.* D:\Moodle\Sem 5\Cloud\PyMicroservices-master\python_tests_xml\*.*
+copy D:\Moodle\Sem 5\Cloud\PyMicroservices-master\Source\coverage.xml D:\Moodle\Sem 5\Cloud\PyMicroservices-master\coverage.xml
