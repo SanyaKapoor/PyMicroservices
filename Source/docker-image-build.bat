@@ -3,4 +3,4 @@ SET IMAGE_NAME=gcr.io/compile-microservices/gpymicro-image:%BUILD_NUMBER%
 cd "D:\Moodle\Sem 5\Cloud\PyMicroservices-master\Source"
 gcloud builds submit --tag %IMAGE_NAME% .
 python main.py %BUILD_NUMBER%
-timeout /t 10
+echo "testing from docker file"
