@@ -1,6 +1,4 @@
 SET PATH=%PATH%; C:\Python27\;C:\Python27\Scripts
-REM del "D:\Moodle\Sem 5\Cloud\PyMicroservices-master\Source\python_tests_xml\*.*"
-REM del "D:\Moodle\Sem 5\Cloud\PyMicroservices-master\Source\coverage.xml"
 cd "D:\Moodle\Sem 5\Cloud\PyMicroservices-master\Source\coverage.xml"
 REM C:\Python27\python runtests.py
 REM C:\Python27\python -m coverage run -m pytest && coverage xml -o coverage.xml
